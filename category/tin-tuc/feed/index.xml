@@ -8,8 +8,8 @@
 	>
 
 <channel>
-	<title>thanhlong &#8211; Longg</title>
-	<atom:link href="http://localhost/myproject/wordpress/author/thanhlong/feed/" rel="self" type="application/rss+xml" />
+	<title>Tin Tức &#8211; Longg</title>
+	<atom:link href="http://localhost/myproject/wordpress/category/tin-tuc/feed/" rel="self" type="application/rss+xml" />
 	<link>https://nguyenlong2711.github.io/mywp</link>
 	<description>Simp♥</description>
 	<lastBuildDate>Sun, 13 Jun 2021 10:27:29 +0000</lastBuildDate>
