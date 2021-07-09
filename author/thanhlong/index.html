@@ -44,6 +44,7 @@ img.emoji {
 	<link rel="stylesheet" id="bootstrap-css" href="https://nguyenlong2711.github.io/mywp/wp-content/themes/hestia/assets/bootstrap/css/bootstrap.min.css?ver=1.0.2" type="text/css" media="all">
 <link rel="stylesheet" id="hestia-font-sizes-css" href="https://nguyenlong2711.github.io/mywp/wp-content/themes/hestia/assets/css/font-sizes.min.css?ver=3.0.16" type="text/css" media="all">
 <link rel="stylesheet" id="wp-block-library-css" href="https://nguyenlong2711.github.io/mywp/wp-includes/css/dist/block-library/style.min.css?ver=5.7.2" type="text/css" media="all">
+<link rel="stylesheet" id="wp-call-btn-guten-blocks-style-css" href="https://nguyenlong2711.github.io/mywp/wp-content/plugins/wp-call-button/assets/block/build/index.css?ver=008a43d024d1ab45f94658bb1b98d508" type="text/css" media="all">
 <link rel="stylesheet" id="wc-block-vendors-style-css" href="https://nguyenlong2711.github.io/mywp/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-style.css?ver=5.1.0" type="text/css" media="all">
 <link rel="stylesheet" id="wc-block-style-css" href="https://nguyenlong2711.github.io/mywp/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=5.1.0" type="text/css" media="all">
 <link rel="stylesheet" id="woocommerce-layout-css" href="https://nguyenlong2711.github.io/mywp/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=5.4.1" type="text/css" media="all">
@@ -51,7 +52,7 @@ img.emoji {
 <link rel="stylesheet" id="woocommerce-general-css" href="https://nguyenlong2711.github.io/mywp/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=5.4.1" type="text/css" media="all">
 <style id="woocommerce-inline-inline-css" type="text/css">.woocommerce form .form-row .required { visibility: visible; }</style>
 <link rel="stylesheet" id="wpforms-full-css" href="https://nguyenlong2711.github.io/mywp/wp-content/plugins/wpforms-lite/assets/css/wpforms-full.min.css?ver=1.6.7" type="text/css" media="all">
-<link rel="stylesheet" id="40e4f8434-css" href="https://nguyenlong2711.github.io/mywp/wp-content/uploads/essential-addons-elementor/734e5f942.min.css?ver=1625495469" type="text/css" media="all">
+<link rel="stylesheet" id="40e4f8434-css" href="https://nguyenlong2711.github.io/mywp/wp-content/uploads/essential-addons-elementor/734e5f942.min.css?ver=1625847994" type="text/css" media="all">
 <link rel="stylesheet" id="hestia_style-css" href="https://nguyenlong2711.github.io/mywp/wp-content/themes/hestia/style.min.css?ver=3.0.16" type="text/css" media="all">
 <style id="hestia_style-inline-css" type="text/css">div.wpforms-container-full .wpforms-form div.wpforms-field input.wpforms-error {
 				border: none;
@@ -880,8 +881,12 @@ h1, h2, h3, h4, h5, h6, .hestia-title, .hestia-title.title-in-content, p.meta-in
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://nguyenlong2711.github.io/mywp/xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://nguyenlong2711.github.io/mywp/wp-includes/wlwmanifest.xml"> 
 <meta name="generator" content="WordPress 5.7.2">
-	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+
+<!-- Call Now Button 0.4.3 by Jerry Rietveld (callnowbutton.com) -->
+ <style>#callnowbutton {display:none;} @media screen and (max-width:650px){#callnowbutton {display:block; position:fixed; text-decoration:none; z-index:2147483647;width:55px; height:55px; border-radius:50%; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);transform: scale(1);bottom:15px; left:20px;background:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNjAgNjAiPjxwYXRoIGQ9Ik03LjEwNCAxNC4wMzJsMTUuNTg2IDEuOTg0YzAgMC0wLjAxOSAwLjUgMCAwLjk1M2MwLjAyOSAwLjc1Ni0wLjI2IDEuNTM0LTAuODA5IDIuMSBsLTQuNzQgNC43NDJjMi4zNjEgMy4zIDE2LjUgMTcuNCAxOS44IDE5LjhsMTYuODEzIDEuMTQxYzAgMCAwIDAuNCAwIDEuMSBjLTAuMDAyIDAuNDc5LTAuMTc2IDAuOTUzLTAuNTQ5IDEuMzI3bC02LjUwNCA2LjUwNWMwIDAtMTEuMjYxIDAuOTg4LTI1LjkyNS0xMy42NzRDNi4xMTcgMjUuMyA3LjEgMTQgNy4xIDE0IiBmaWxsPSIjMDA5ZDAwIi8+PHBhdGggZD0iTTcuMTA0IDEzLjAzMmw2LjUwNC02LjUwNWMwLjg5Ni0wLjg5NSAyLjMzNC0wLjY3OCAzLjEgMC4zNWw1LjU2MyA3LjggYzAuNzM4IDEgMC41IDIuNTMxLTAuMzYgMy40MjZsLTQuNzQgNC43NDJjMi4zNjEgMy4zIDUuMyA2LjkgOS4xIDEwLjY5OWMzLjg0MiAzLjggNy40IDYuNyAxMC43IDkuMSBsNC43NC00Ljc0MmMwLjg5Ny0wLjg5NSAyLjQ3MS0xLjAyNiAzLjQ5OC0wLjI4OWw3LjY0NiA1LjQ1NWMxLjAyNSAwLjcgMS4zIDIuMiAwLjQgMy4xMDVsLTYuNTA0IDYuNSBjMCAwLTExLjI2MiAwLjk4OC0yNS45MjUtMTMuNjc0QzYuMTE3IDI0LjMgNy4xIDEzIDcuMSAxMyIgZmlsbD0iI2ZmZmZmZiIvPjwvc3ZnPg==) center/35px 35px no-repeat #00bb00;}}#callnowbutton span{display:none;}</style>
+<!-- This website uses the WP Call Button plugin to generate more leads. --><style type="text/css">.wp-call-button{ display: none; } @media screen and (max-width: 650px) { .wp-call-button{display: block; position: fixed; text-decoration: none; z-index: 9999999999;width: 60px; height: 60px; border-radius: 50%;/*transform: scale(0.8);*/  left: 20px;  bottom: 20px; background: url( data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDU5cHgiIGhlaWdodD0iNDU5cHgiIHZpZXdCb3g9IjAgMCA0NTkgNDU5IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0NTkgNDU5OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGc+PGcgaWQ9ImNhbGwiPjxwYXRoIHN0eWxlPSJmaWxsOiB3aGl0ZTsiIGQ9Ik05MS44LDE5OC45YzM1LjcsNzEuNCw5Ni45LDEzMC4wNSwxNjguMywxNjguM0wzMTYuMiwzMTEuMWM3LjY0OS03LjY0OSwxNy44NS0xMC4xOTksMjUuNS01LjFjMjguMDUsMTAuMiw1OC42NDksMTUuMyw5MS44LDE1LjNjMTUuMywwLDI1LjUsMTAuMiwyNS41LDI1LjV2ODYuN2MwLDE1LjMtMTAuMiwyNS41LTI1LjUsMjUuNUMxOTMuOCw0NTksMCwyNjUuMiwwLDI1LjVDMCwxMC4yLDEwLjIsMCwyNS41LDBoODkuMjVjMTUuMywwLDI1LjUsMTAuMiwyNS41LDI1LjVjMCwzMC42LDUuMSw2MS4yLDE1LjMsOTEuOGMyLjU1LDcuNjUsMCwxNy44NS01LjEsMjUuNUw5MS44LDE5OC45eiIvPjwvZz48L2c+PC9zdmc+) center/30px 30px no-repeat #269041 !important;} }</style>	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
 	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<link rel="preconnect" href="//code.tidio.co">
 <style type="text/css" id="custom-background-css">body.custom-background { background-color: #e5e5e5; background-image: url("https://nguyenlong2711.github.io/mywp/wp-content/uploads/2021/06/838293.jpg"); background-position: left top; background-size: cover; background-repeat: no-repeat; background-attachment: fixed; }</style>
 	</head>
 
@@ -940,7 +945,7 @@ h1, h2, h3, h4, h5, h6, .hestia-title, .hestia-title.title-in-content, p.meta-in
 <div class="card-description entry-summary ">
 <p>Bàn phím Logitech. Đối với một “game thủ” thì bàn phím chính là vũ khí. Nhiều game thủ đã rất bực tức và khó chịu vì bại trận do bàn phím không được nhanh nhạy. Vì vậy nhiều loại bàn phím được ra đời trong đó có bàn phím Logitech<a class="moretag" href="https://nguyenlong2711.github.io/mywp/ban-phim-logitech-danh-gia-ban-phim-logitech-g-pro/"> Đọc tiếp&hellip;</a></p>
 </div>
-<div class="posted-by vcard author">Bởi <a href="https://nguyenlong2711.github.io/mywp/author/thanhlong/" title="thanhlong" class="url"><b class="author-name fn">thanhlong</b></a>, <a href="https://nguyenlong2711.github.io/mywp/ban-phim-logitech-danh-gia-ban-phim-logitech-g-pro/"><time class="entry-date published" datetime="2021-07-04T09:43:59+07:00" content="2021-07-04">1 ngày</time><time class="updated hestia-hidden" datetime="2021-07-04T12:36:15+07:00">1 ngày</time> trước </a>
+<div class="posted-by vcard author">Bởi <a href="https://nguyenlong2711.github.io/mywp/author/thanhlong/" title="thanhlong" class="url"><b class="author-name fn">thanhlong</b></a>, <a href="https://nguyenlong2711.github.io/mywp/ban-phim-logitech-danh-gia-ban-phim-logitech-g-pro/"><time class="entry-date published" datetime="2021-07-04T09:43:59+07:00" content="2021-07-04">5 ngày</time><time class="updated hestia-hidden" datetime="2021-07-04T12:36:15+07:00">5 ngày</time> trước </a>
 </div>
 </div></div></article><article id="post-204" class="card card-blog card-plain post-204 post type-post status-publish format-standard hentry category-cong-nghe"><div class="row "><div class="col-sm-12">
 <h6 class="category text-info">
@@ -949,7 +954,7 @@ h1, h2, h3, h4, h5, h6, .hestia-title, .hestia-title.title-in-content, p.meta-in
 <div class="card-description entry-summary ">
 <p>Nếu như bạn là người dùng các sản phẩm công nghệ như máy tính, các phụ kiện của máy tính, thiết bị văn phòng… Nói chung là đồ công nghệ thì&nbsp;thương hiệu Logitech&nbsp;không còn là cái tên xa lạ. Tuy nhiên, chỉ biết về Logitech có nhiều sản phẩm công<a class="moretag" href="https://nguyenlong2711.github.io/mywp/nhung-thong-tin-ve-thuong-hieu-logitech-ban-can-biet/"> Đọc tiếp&hellip;</a></p>
 </div>
-<div class="posted-by vcard author">Bởi <a href="https://nguyenlong2711.github.io/mywp/author/thanhlong/" title="thanhlong" class="url"><b class="author-name fn">thanhlong</b></a>, <a href="https://nguyenlong2711.github.io/mywp/nhung-thong-tin-ve-thuong-hieu-logitech-ban-can-biet/"><time class="entry-date published" datetime="2021-07-04T09:41:01+07:00" content="2021-07-04">1 ngày</time><time class="updated hestia-hidden" datetime="2021-07-04T09:47:03+07:00">1 ngày</time> trước </a>
+<div class="posted-by vcard author">Bởi <a href="https://nguyenlong2711.github.io/mywp/author/thanhlong/" title="thanhlong" class="url"><b class="author-name fn">thanhlong</b></a>, <a href="https://nguyenlong2711.github.io/mywp/nhung-thong-tin-ve-thuong-hieu-logitech-ban-can-biet/"><time class="entry-date published" datetime="2021-07-04T09:41:01+07:00" content="2021-07-04">5 ngày</time><time class="updated hestia-hidden" datetime="2021-07-04T09:47:03+07:00">5 ngày</time> trước </a>
 </div>
 </div></div></article><article id="post-82" class="card card-blog card-plain post-82 post type-post status-publish format-standard hentry category-tin-tuc"><div class="row "><div class="col-sm-12">
 <h6 class="category text-info">
@@ -958,7 +963,7 @@ h1, h2, h3, h4, h5, h6, .hestia-title, .hestia-title.title-in-content, p.meta-in
 <div class="card-description entry-summary ">
 <p>Đêm Đà Lạt</p>
 </div>
-<div class="posted-by vcard author">Bởi <a href="https://nguyenlong2711.github.io/mywp/author/thanhlong/" title="thanhlong" class="url"><b class="author-name fn">thanhlong</b></a>, <a href="https://nguyenlong2711.github.io/mywp/da-lat-ve-dem/"><time class="entry-date published" datetime="2021-06-13T16:45:35+07:00" content="2021-06-13">3 tuần</time><time class="updated hestia-hidden" datetime="2021-06-13T17:27:29+07:00">3 tuần</time> trước </a>
+<div class="posted-by vcard author">Bởi <a href="https://nguyenlong2711.github.io/mywp/author/thanhlong/" title="thanhlong" class="url"><b class="author-name fn">thanhlong</b></a>, <a href="https://nguyenlong2711.github.io/mywp/da-lat-ve-dem/"><time class="entry-date published" datetime="2021-06-13T16:45:35+07:00" content="2021-06-13">4 tuần</time><time class="updated hestia-hidden" datetime="2021-06-13T17:27:29+07:00">4 tuần</time> trước </a>
 </div>
 </div></div></article><article id="post-13" class="card card-blog card-plain post-13 post type-post status-publish format-standard hentry category-tin-tuc"><div class="row "><div class="col-sm-12">
 <h6 class="category text-info">
@@ -967,7 +972,7 @@ h1, h2, h3, h4, h5, h6, .hestia-title, .hestia-title.title-in-content, p.meta-in
 <div class="card-description entry-summary ">
 <p>Các huyện tại Yên Bái đang hỏa tốc truy tìm một nữ công nhân được cho đã mắc COVID-19 nhưng trốn khỏi Bắc Giang. Tuy nhiên, có khả năng người này đã khai báo thông tin cá nhân không trung thực.</p>
 </div>
-<div class="posted-by vcard author">Bởi <a href="https://nguyenlong2711.github.io/mywp/author/thanhlong/" title="thanhlong" class="url"><b class="author-name fn">thanhlong</b></a>, <a href="https://nguyenlong2711.github.io/mywp/khan-cap-tim-nu-cong-nhan-nghi-mac-covid-19-bo-tron-khoi-bac-giang/"><time class="entry-date published" datetime="2021-05-22T15:53:10+07:00" content="2021-05-22">1 tháng</time> trước </a>
+<div class="posted-by vcard author">Bởi <a href="https://nguyenlong2711.github.io/mywp/author/thanhlong/" title="thanhlong" class="url"><b class="author-name fn">thanhlong</b></a>, <a href="https://nguyenlong2711.github.io/mywp/khan-cap-tim-nu-cong-nhan-nghi-mac-covid-19-bo-tron-khoi-bac-giang/"><time class="entry-date published" datetime="2021-05-22T15:53:10+07:00" content="2021-05-22">2 tháng</time> trước </a>
 </div>
 </div></div></article>				</div>
 					<div class="col-md-3 blog-sidebar-wrapper col-md-offset-1">
@@ -1013,16 +1018,17 @@ h1, h2, h3, h4, h5, h6, .hestia-title, .hestia-title.title-in-content, p.meta-in
 																<div class="hestia-bottom-footer-content">
 <ul id="menu-menu-2" class="footer-menu pull-left">
 <li id="menu-item-69" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-69"><a href="https://itc.edu.vn/">ITC</a></li>
-<li id="menu-item-59" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-59"><a href="https://nguyenlong2711.github.io/mywp/">I Love You 3000♥.</a></li>
+<li id="menu-item-59" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-59"><a href="https://nguyenlong2711.github.io/mywp/">Trang chủ.</a></li>
 <li id="menu-item-90" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-90"><a href="https://www.facebook.com/rin.dx.9/">Profile</a></li>
 <li id="menu-item-91" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-91"><a href="https://www.instagram.com/longg_2711/">Instagram</a></li>
+<li id="menu-item-314" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-314"><a href="tel:+84909637410">Call Long</a></li>
 </ul>					<div class="copyright pull-right">
 				Hestia | Thiết kế bởi <a href="https://themeisle.com/" rel="nofollow">ThemeIsle</a>			</div>
 			</div>			</div>
 					</footer>
 				</div>
 	</div>
-
+<a href="tel:+84909637410" id="callnowbutton" onclick="gtag('event', 'Call Now Button', {event_category: 'contact', event_label: 'phone'});"><span>Call Now Button</span></a><a class="wp-call-button" href="tel:+84909637410"></a>
 		<button class="hestia-scroll-to-top">
 			<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 320 512" width="12.5px" height="20px"><path d="M177 255.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 351.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 425.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1zm-34-192L7 199.7c-9.4 9.4-9.4 24.6 0 33.9l22.6 22.6c9.4 9.4 24.6 9.4 33.9 0l96.4-96.4 96.4 96.4c9.4 9.4 24.6 9.4 33.9 0l22.6-22.6c9.4-9.4 9.4-24.6 0-33.9l-136-136c-9.2-9.4-24.4-9.4-33.8 0z"></path></svg>
 		</button>
@@ -1056,10 +1062,10 @@ var wc_cart_fragments_params = {"ajax_url":"\/myproject\/wordpress\/wp-admin\/ad
 <script type="text/javascript" src="https://nguyenlong2711.github.io/mywp/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=5.4.1" id="wc-cart-fragments-js"></script>
 <script type="text/javascript" id="40e4f8434-js-extra">
 /* <![CDATA[ */
-var localize = {"ajaxurl":"https:\/\/nguyenlong2711.github.io\/mywp\/wp-admin\/admin-ajax.php","nonce":"50728fb329","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."}};
+var localize = {"ajaxurl":"https:\/\/nguyenlong2711.github.io\/mywp\/wp-admin\/admin-ajax.php","nonce":"6680e5e825","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."}};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://nguyenlong2711.github.io/mywp/wp-content/uploads/essential-addons-elementor/734e5f942.min.js?ver=1625495469" id="40e4f8434-js"></script>
+<script type="text/javascript" src="https://nguyenlong2711.github.io/mywp/wp-content/uploads/essential-addons-elementor/734e5f942.min.js?ver=1625847994" id="40e4f8434-js"></script>
 <script type="text/javascript" src="https://nguyenlong2711.github.io/mywp/wp-content/themes/hestia/assets/bootstrap/js/bootstrap.min.js?ver=1.0.2" id="jquery-bootstrap-js"></script>
 <script type="text/javascript" src="https://nguyenlong2711.github.io/mywp/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1" id="jquery-ui-core-js"></script>
 <script type="text/javascript" id="hestia_scripts-js-extra">
@@ -1070,5 +1076,22 @@ var hestiaViewcart = {"view_cart_label":"Xem giỏ hàng","view_cart_link":"http
 </script>
 <script type="text/javascript" src="https://nguyenlong2711.github.io/mywp/wp-content/themes/hestia/assets/js/script.min.js?ver=3.0.16" id="hestia_scripts-js"></script>
 <script type="text/javascript" src="https://nguyenlong2711.github.io/mywp/wp-includes/js/wp-embed.min.js?ver=5.7.2" id="wp-embed-js"></script>
+<script type="text/javascript">
+document.tidioChatCode = "w99ivl5y4d5cnfsp1zqncxvvndwlrgro";
+(function() {
+  function asyncLoad() {
+    var tidioScript = document.createElement("script");
+    tidioScript.type = "text/javascript";
+    tidioScript.async = true;
+    tidioScript.src = "//code.tidio.co/w99ivl5y4d5cnfsp1zqncxvvndwlrgro.js";
+    document.body.appendChild(tidioScript);
+  }
+  if (window.attachEvent) {
+    window.attachEvent("onload", asyncLoad);
+  } else {
+    window.addEventListener("load", asyncLoad, false);
+  }
+})();
+</script>
 </body>
 </html>
